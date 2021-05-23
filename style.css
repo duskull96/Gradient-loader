@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: #12c2e9;
+    background: -webkit-linear-gradient(to top, #f64f59, #c471ed, #12c2e9);
+    background: linear-gradient(0deg, #f64f59, #c471ed, #12c2e9);
+    
+
+}
+
+    
+
+.wrap {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block {
+    width: 340px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: rgba(0, 0, 0, 0.5) 10px 10px 10px;
+}
+
+.block form {
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+}
+.block form #step, .block form #speed {
+    width: 320px;
+}
+.block form #linear-gradient {
+    width: 320px;
+    height: 100px;
+    outline: none;
+    resize: none;
+    background: rgba(255, 255, 255, 0.1);
+}
+.block form #copy-animation {
+    width: 100px;
+    margin-top: 10px;
+    outline: none;
+    font-family: cursive;
+    border: black solid 1px;
+    background: rgba(255, 255, 255, 0.1);
+    transition: .1s;
+}
+.block form #copy-animation:hover {
+    box-shadow: black 2px 2px;
+    transition: .1s;
+}
+
+.block form #copy-animation:active {
+    box-shadow: #000 2px 2px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #000;
+}
+
+
+
+
+

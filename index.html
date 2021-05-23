@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="gradient-load.js" defer></script>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="block">
+            <form onsubmit="return false;">
+                <label for="step">Step - <span id="step-value"></span></label>
+                <input type="range" min="1" max="180" step="1" id="step" name="step" value="1">
+                <label for="speed">Speed - <span id="speed-value"></span></label>
+                <input type="range" min="1" max="100" id="speed" name="speed" value="1">
+                <label for="linear-gradient">Linear-gradient</label>
+                <textarea type="text" name="linear-gradient" id="linear-gradient" placeholder="rgba(18,152,233,1) 0%, rgba(196,113,237,1) 50%, rgba(246,79,89,1) 100%"></textarea>
+                <button id="copy-animation">Copy animation</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
