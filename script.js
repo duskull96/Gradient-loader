@@ -1,5 +1,4 @@
 
-
 const bodyBG = document.querySelector('body'),
     step = document.querySelector('#step'),
     speed = document.querySelector('#speed'),
