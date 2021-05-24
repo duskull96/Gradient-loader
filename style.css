@@ -46,25 +46,7 @@ body {
     resize: none;
     background: rgba(255, 255, 255, 0.1);
 }
-.block form #copy-animation {
-    width: 100px;
-    margin-top: 10px;
-    outline: none;
-    font-family: cursive;
-    border: black solid 1px;
-    background: rgba(255, 255, 255, 0.1);
-    transition: .1s;
-}
-.block form #copy-animation:hover {
-    box-shadow: black 2px 2px;
-    transition: .1s;
-}
 
-.block form #copy-animation:active {
-    box-shadow: #000 2px 2px;
-    background: rgba(0, 0, 0, 0.5);
-    color: #000;
-}
 
 
 
